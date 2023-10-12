@@ -1,0 +1,10 @@
+#print reverse of a number using for
+n=input('Enter number-')
+l=len(n)
+rev=0
+for i in range(l):
+    n=int(n)
+    rem=n%10
+    rev=rev*10+rem
+    n=n//10
+print(rev)

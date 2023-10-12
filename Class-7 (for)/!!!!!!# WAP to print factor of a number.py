@@ -1,0 +1,1 @@
+# WAP to print factor of a number

@@ -1,0 +1,1 @@
+#WAP to generate armstrong number within user specified range
