@@ -20,8 +20,18 @@ for i in books_data.splitlines():
 print('Number of language',len(lang_set))
 
 #display the list of books in each language
-
+lang_book={}
+for data in books_data.splitlines():
+    d=data.split()
+    lang,name=d[0],d[1]
+    if lang not in lang_book:
+        lang_book[lang]=set()
+    lang_book[lang].add(name)
+print(lang_book)
+for lang in lang_book:
+    print(lang,"--->")
+    for name in lang_book[lang]:
+        print("\t",name)
 
 #find no. of authors in each language
-
 
