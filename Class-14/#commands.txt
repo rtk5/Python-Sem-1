@@ -1,8 +1,0 @@
-#commands
-read()
-readline()  #-1 line
-readlines()    # -list containing each line as a list item
-
-write()
-print()
-close()
