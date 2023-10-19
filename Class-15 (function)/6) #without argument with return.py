@@ -7,3 +7,10 @@ def add():
 r=add()
 print(r)
 print(type(r))
+
+def area_rect():
+    x,y=4,10
+    a=x*y
+    return a
+r=area_rect()
+print("Area =",r)
