@@ -3,7 +3,7 @@
 1
 22
 333
-444
+4444
 '''
 n=int(input("no. of rows="))
 for i in range(n+1):

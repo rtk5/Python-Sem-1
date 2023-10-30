@@ -2,7 +2,7 @@
 a=int(input('enter first number-'))
 b=int(input('enter last number-'))
 for i in range(a,b):
-    if (i%2):
+    if (i%2==0):
         print('even no.=',i)
     else:
         print('odd  no.=',i)

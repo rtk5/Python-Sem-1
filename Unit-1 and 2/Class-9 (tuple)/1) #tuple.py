@@ -1,7 +1,7 @@
 
 
 t=(22)
-print(type(t))
+print(type(t))  #int
 
 t=(22,)
 print(type(t))

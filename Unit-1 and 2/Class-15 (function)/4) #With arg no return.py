@@ -9,5 +9,3 @@ def area_rect(x,y):
     a=x*y
     print(a)
 area_rect(5,6)
-
-print(id(add))

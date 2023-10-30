@@ -2,4 +2,4 @@
 n=input('Enter string-')
 l=len(n)
 for i in range(l):
-    print(n[i],ord(n[i]))
+    print(n[i])

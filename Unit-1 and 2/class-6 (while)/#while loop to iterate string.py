@@ -11,6 +11,7 @@ print('end')"""
 name='python'
 i=len(name)
 while(i>0):
-    print(name[i-1])
+    print(name[i-1],end="")
     i=i-1
+print()
 print('end')

@@ -3,12 +3,12 @@ s1={1,3}
 s2={2,3}
 print(s1|s2)
 print(s1.union(s2))
-
+print()
 print(s1&s2)
 print(s1.intersection(s2))
 print(s1.intersection_update(s2))   #puts intersection value in s1
 print(s1)
-
+print()
 s7={1,2,3}
 s8={2,5,6}
 print(s7-s8)

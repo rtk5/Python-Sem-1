@@ -6,3 +6,5 @@ print(a)
 
 a.pop(2)    # removes index ie 10
 print(a)
+print(a.pop())
+print(a)

@@ -1,4 +1,5 @@
 #Dictionary
+'''
 d1={}    #is a dictionary, not a set (empty)
 print(type(d1))
 d2=dict()
@@ -13,7 +14,7 @@ v=d1.values()
 k=d1.keys()
 print(v)
 print(k)
-
+'''
 employee={}
 for i in range(2):
     name=input("ENTER NAME:")
