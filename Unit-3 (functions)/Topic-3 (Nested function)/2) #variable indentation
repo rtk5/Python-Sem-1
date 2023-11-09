@@ -1,0 +1,14 @@
+#variable indentation
+
+x=10    #global variable
+        #other variables can't be accessed
+def f1():
+    r=5     #scope = enclosed space,non local
+    def f2():
+        z=3     #scope = local space
+                #global,enclosed,local variable can be accessed
+        
+        
+ #level 1
+     #level 2
+        #level 3
