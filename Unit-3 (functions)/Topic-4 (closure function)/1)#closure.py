@@ -8,4 +8,3 @@ def outer(msg):
 different = outer("This is an example of closure")
 different()     #reffers to inner()
 print(id(different))
-#print(id(inner()))
