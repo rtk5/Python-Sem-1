@@ -8,4 +8,3 @@ print(s3.lower())
 print(s3.islower())
 
 
-
