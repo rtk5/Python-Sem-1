@@ -13,3 +13,4 @@ def square(nums):
         yield num**2
 
 print(sum(square(fibonacci_numbers(int(input("ENTER:"))))))
+
