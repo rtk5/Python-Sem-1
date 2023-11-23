@@ -11,3 +11,8 @@ def f2():
 def _f3():
     print('in f3')
 
+if __name__=='__main__':
+    print("this is module 1")
+else:
+    print("this is not module 1")
+    
