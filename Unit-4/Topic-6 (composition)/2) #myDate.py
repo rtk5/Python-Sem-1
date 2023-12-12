@@ -26,4 +26,4 @@ print(e)
 mylist=[MyEvent(26,1,1956,"Republic day"),MyEvent(2,10,1868,'Gandhi Jayanti')]
 for e in sorted(mylist,key=MyEvent.key):
     print(e)
-    
+   
