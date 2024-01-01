@@ -1,7 +1,8 @@
 #division of 2 numbers using recursion
-def div(x,y):
-    if (x==0):
+def divide(x, y):   #Recursive Function
+    if(x < y):             #terminating condition
         return 0
     else:
-        return div(x-y,y)+ 1
-print("Quotient is",div(int(input("Enter 1st number:")),int(input("Enter 2nd number:"))))
+        return 1 + divide(x - y, y)
+
+print("Result:", divide(20, 5))

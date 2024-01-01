@@ -16,4 +16,3 @@ class A:
 print(A().add(10,20,30))
 print(A().add(10,20))
 print(A().add(34.5,12.3,78.9))
-

@@ -24,4 +24,3 @@ def f1():
         print("Executed")
 print(f1())
 
-
