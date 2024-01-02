@@ -3,8 +3,8 @@
 2. Generate Fibonacci Series upto n_terms using recursion.
 3. Solve the Tower of Hanoi Puzzle for a given n discs using recursion.
 4. Calculate the length of the string using recursion.
- 5. Calculate the sum of first n natural numbers using recursion.
- 6. Write a recursive function that accepts two numbers with variables a and b and
+5. Calculate the sum of first n natural numbers using recursion.
+6. Write a recursive function that accepts two numbers with variables a and b and
 calculate a power b or a raised to b. Test the recursive function.
 7. Find the subtraction of two numbers using recursion.
 8. Find the product of two numbers using recursion.
