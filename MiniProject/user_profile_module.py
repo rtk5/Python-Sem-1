@@ -63,7 +63,7 @@ class UserProfileApp:
         self.save_to_excel(user)
 
     def save_to_excel(self, user):
-        excel_file_path = r"C:\Users\rithv\WORK\PES\Miniproject\budget_tracker1.xlsx"
+        excel_file_path = r"/home/rithvikmatta/Python/MiniProject/budget_tracker1.xlsx"
         try:
             if os.path.exists(excel_file_path):
                 workbook = load_workbook(excel_file_path)

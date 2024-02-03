@@ -5,6 +5,7 @@ import csv
 
 pass_verified = False
 username = ""
+'''
 def click():
     global pass_verified, username
     username = e1.get()
@@ -14,12 +15,29 @@ def click():
     with open("/home/rithvikmatta/Python/MiniProject/user_acct_info.csv",'r') as csvfile:
         csv_reader = csv.reader(csvfile)
         for line in csv_reader:
-            d[line[0]] = line[1]
+            d[line[0]] =line[1]
         if (username in d) and d[username] == password:
             pass_verified = True 
             ms.showinfo('Message','Password verified')
         else:
             ms.showinfo('Message','Incorrect password')
+'''
+def click():
+    global pass_verified, username
+    username = e1.get()
+    password = e2.get()
+
+    d = dict()
+    with open("/home/rithvikmatta/Python/MiniProject/user_acct_info.csv", 'r') as csvfile:
+        csv_reader = csv.reader(csvfile)
+        for line in csv_reader:
+            if len(line) >= 2:  # Check if line has at least 2 elements
+                d[line[0]] = line[1]
+        if (username in d) and d[username] == password:
+            pass_verified = True 
+            ms.showinfo('Message', 'Password verified')
+        else:
+            ms.showinfo('Message', 'Incorrect password')
 
 def verification():
     return pass_verified
